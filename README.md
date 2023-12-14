@@ -29,17 +29,18 @@ Referências:
 ## Dependências
 
 Execute os seguintes comandos para instalar as dependências do projeto:
-
+```
 npx expo install jest-expo jest
 
 npm i --save-dev @types/jest
 
 npm install --save-dev @types/react-test-renderer
+```
 
 ## Configuração Jest no ‘package.json’
 
 Adicione as configurações do Jest no seu arquivo ‘package.json’:
-
+```
 "scripts": {
 //… outros scripts
 "test": "jest"
@@ -50,13 +51,13 @@ Adicione as configurações do Jest no seu arquivo ‘package.json’:
 "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
 ]
 },
-
+```
 ## Executar os testes
 
 Utilizar o terminal para executar o comando:
-
+```
 npm run test
-
+```
 ## Observações:
 
 Neste projeto foi utilizado o terminal presente na IDE VSCode como ambiente para executar os testes implementados.
