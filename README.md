@@ -26,7 +26,7 @@ Referências:
 
 - FOWLER, M. Test Pyramid. 2012.
 
-## Dependências
+## Dependências para testes unitários
 
 Execute os seguintes comandos para instalar as dependências do projeto:
 ```
